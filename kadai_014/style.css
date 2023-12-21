@@ -25,18 +25,13 @@
     text-shadow: 1px 1px 2px gray;
     border-bottom: solid 3px rgb(115, 115, 114)
   }
-  .text-bold {
+  .text-m {
     color: SkyBlue;
   }
   .text {
     color: rgb(255, 192, 203);
   }
-  #first-heading {
+  #parent > p  {
     font-weight: bold;
   }
-  #second-heading {
-    font-weight: bold;
-  }
-  #third-heading {
-    font-weight: bold;
-  }
+  
