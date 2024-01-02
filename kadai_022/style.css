@@ -1,0 +1,99 @@
+h1{
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(244, 79, 79)
+  }
+p{
+    margin: 0 auto;  
+    font-size: 20px;
+}
+body{
+    margin: 0 auto;
+}
+a{
+    font-size: 20px;
+}
+header{
+    text-align: center;   
+}   
+header{
+    margin-bottom: 20px;
+}   
+main{
+    margin: 10px 10px 10px 10px;
+}   
+.parent {
+    display: flex;
+    flex-direction: column;  /* 子要素を縦に並べる */
+}
+@media screen and (max-width: 768px) {
+        div {
+            display: block;
+        }
+}
+.flexbox-container {
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.contents {
+    border: 3px solid rgb(238, 204, 204);
+    font-weight: 3px;
+    flex-basis: 25%;
+    padding: 10px 15px;
+    margin: 20px 0;
+    margin: 10px 0px 10px 0px;
+    width: 70%;
+  
+}
+h2::before {
+    content: "●";
+    color: rgb(239, 111, 139);
+}
+h2{
+    font-size: 25px;
+    border-bottom: 3px dotted rgb(236, 122, 122);
+    
+  }
+.contents:nth-child(3) p:nth-child(3)::first-letter {
+    color: rgb(97, 206, 249);
+    font-weight: bold;
+}
+.contents:nth-child(2) p:nth-child(3)::first-letter {
+    color: rgb(97, 206, 249);
+    font-weight: bold;
+}
+.contents:nth-child(1) p:nth-child(3)::first-letter {
+    color: rgb(97, 206, 249);
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(244, 79, 79)
+}
+footer{
+    text-align: center;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+a:visited{
+    color: rgb(193, 234, 251);
+  }
+a:hover{
+    color: rgb(245, 178, 168);
+  }
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 25px;
+    }
+    #parent {
+        flex-direction: column;
+    }
+}
+
