@@ -22,6 +22,11 @@ header{
 main{
     margin: 10px 10px 10px 10px;
 }   
+
+
+
+
+
 .parent {
     display: flex;
     flex-direction: column;  /* 子要素を縦に並べる */
@@ -35,7 +40,9 @@ main{
     padding: 5px;
     text-align: center;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between; 
+    
+
 }
 
 .contents {
@@ -46,6 +53,7 @@ main{
     margin: 20px 0;
     margin: 10px 0px 10px 0px;
     width: 70%;
+   
   
 }
 h2::before {
@@ -86,14 +94,17 @@ a:hover{
     color: rgb(245, 178, 168);
   }
 @media screen and (max-width: 768px) {
-    h2 {
-        font-size: 30px;
-    }
-    p {
-        font-size: 25px;
-    }
-    #parent {
-        flex-direction: column;
-    }
+h2 {
+    font-size: 30px;
 }
-
+ p {
+    font-size: 25px;
+}
+#parent {
+    flex-direction: column;
+}
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
