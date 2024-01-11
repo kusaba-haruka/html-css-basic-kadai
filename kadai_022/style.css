@@ -2,7 +2,7 @@ h1{
     margin: 0 auto;
     color: rgb(255, 255, 255);
     background-color: rgb(244, 79, 79)
-  }
+}
 p{
     margin: 0 auto;  
     font-size: 20px;
@@ -24,9 +24,6 @@ main{
 }   
 
 
-
-
-
 .parent {
     display: flex;
     flex-direction: column;  /* 子要素を縦に並べる */
@@ -41,10 +38,8 @@ main{
     text-align: center;
     display: flex;
     justify-content: space-between; 
-    
-
+    align-items: center; /* 要素を横方向に中央寄せ */
 }
-
 .contents {
     border: 3px solid rgb(238, 204, 204);
     font-weight: 3px;
@@ -52,19 +47,20 @@ main{
     padding: 10px 15px;
     margin: 20px 0;
     margin: 10px 0px 10px 0px;
-    width: 70%;
+    width: 70%;  
+    text-align: center;
    
-  
 }
+
+
 h2::before {
     content: "●";
     color: rgb(239, 111, 139);
 }
 h2{
     font-size: 25px;
-    border-bottom: 3px dotted rgb(236, 122, 122);
-    
-  }
+    border-bottom: 3px dotted rgb(236, 122, 122);   
+}
 .contents:nth-child(3) p:nth-child(3)::first-letter {
     color: rgb(97, 206, 249);
     font-weight: bold;
@@ -107,4 +103,6 @@ h2 {
 img{
     max-width: 100%;
     height: auto;
+    margin: 10px 0px 10px 0px;
+    width: 70%;  
 }
