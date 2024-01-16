@@ -1,11 +1,12 @@
-let weight; //変数 体重
-let height; //変数 身長
+let weight=68; //変数 体重
+let height=1.7 //変数 身長
+
+// 変数の宣言
+let bmi;
 
 //BMI計算
-let bmi = weight/(height * height);
+bmi = weight/(height * height);
 
-console.log(weight);
-console.log(height);
+console.log(bmi);
 
-weight = '68';
-height = '1.7';
+
