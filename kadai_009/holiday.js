@@ -12,9 +12,9 @@ while (index < holidays.length) {
   index++;
 }
 
-// 1～10までの数値を順番に出力する
- for (let holidays = 1; holidays <= 16; holidays++) {
-    console.log(holidays);
+
+ 
+  for (let i = 0; i < holidays.length; i++) {
+    console.log(holidays[i]);
   }
- 
- 
+  
