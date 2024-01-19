@@ -1,4 +1,4 @@
-let num = 9;
+let num = 11;
 
 // 変数numの値を出力する（確認用）
 console.log(num);
@@ -20,7 +20,7 @@ else if (num % 3 == 0){
 
 // それ以外のときは、「num」という文字列を出力する
 else {
-    console.log('num');
+    console.log();
   }
 
 
