@@ -1,5 +1,4 @@
-var dateName = new Date([2022, 8, 22]);
-
+var dateName = new Date();
 
  var year = dateName.getFullYear();
  var month = dateName.getMonth() + 1;
@@ -7,3 +6,5 @@ var dateName = new Date([2022, 8, 22]);
   
 
 console.log(year+"年"+month+"月"+day+"日")
+
+const outputDateEl = document.querySelector('.output-date');
